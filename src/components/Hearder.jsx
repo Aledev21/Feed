@@ -5,7 +5,7 @@ export function Header() {
   return (
         <header className={styles.header}>
           <strong>
-            Ignite
+            Ignite Feed
           </strong>
         </header>
     );
