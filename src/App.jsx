@@ -1,4 +1,4 @@
-import { Post } from "./components/Post/Post" 
+import { Post } from "./components/Post/Post"
 import { Header } from './components/Header/Hearder';
 import { Sidebar } from "./components/Sidebar/Sidebar";
 
@@ -9,20 +9,20 @@ import './global.css'
 export function App() {
 
   return (
-            <> 
-            <Header />
+    <>
+      <Header />
 
-           <div className={styles.wrapper}>
-          <Sidebar />
+      <div className={styles.wrapper}>
+        <Sidebar />
 
-          <main>
+        <main>
           <Post />
           <Post />
-            
-          </main>
-           </div>
-          
 
-            </>
+        </main>
+      </div>
+
+
+    </>
   )
 }
